@@ -50,4 +50,7 @@ Front-end is kept simple and easy to use because focus was more on functionality
 
 ![image](https://user-images.githubusercontent.com/34359431/152700914-4e9a4a46-b4cd-4137-8f62-5aa6c9280313.png)
 
+### How to Run the project?
+To train and save the machine learning model , you can simply use the Model_Training.ipynb file.
+If you want to use full application, then you need to create an android studio project and then add java and xml resources from "Andoid Application" folder.This app will communicate with a server to get predicted results , so you need to install flask on a local machine.Then place the file named "app" from  "Andoid Application\Serevr Side" in your flask project directory.
 
