@@ -30,11 +30,14 @@ Model
 The model, sklearn.svm.SVC used belongs to the Sklearn library.
 
 ### Model Accuracy
-Sklearn’s accuracy_score and confusion matrix is used to see the accuracy of the test data on the previously trained model. The accuracy achieved is 100%.
+Sklearn’s accuracy_score and confusion matrix is used to see the accuracy of the test data on the previously trained model. The accuracy achieved is 99%.
 
+![image](https://user-images.githubusercontent.com/34359431/152700890-fe5a3549-e3fb-47b7-9df9-01a6ce24f2de.png)
 
 ### Coin Detection
 Given an image where multiple coins exist, using a circle detection algorithm namely Hough Transform, coins are detected and cropped to produce multiple images (one image for each coin).
+![image](https://user-images.githubusercontent.com/34359431/152700902-822fb235-ed26-4191-9687-b48d6cf7e37a.png)
+
 
 ### Sharpening Image
 As real-time images are mostly blurred and out of focus so to resolve this problem, images are sharpened using the following code snippet.
@@ -45,5 +48,6 @@ Multiple images gathered from coin detection are then sent to the classifier for
 ### User Interface
 Front-end is kept simple and easy to use because focus was more on functionality than design for this particular project.It designed and developed on Android Studio.While using CoinDeCal, user can either take an image from camera or upload an existing image from gallery.  The image content then goes to the model for prediction and the results are sent back to the android application. The screen then shows the total amount calculated.
 
+![image](https://user-images.githubusercontent.com/34359431/152700914-4e9a4a46-b4cd-4137-8f62-5aa6c9280313.png)
 
 
